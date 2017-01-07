@@ -1,0 +1,82 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: "Î¢ÈíÑÅºÚ";
+}
+
+#head{
+    width: 100%;
+    height: 100px;
+    /*background-color: aqua;*/
+}
+#head #head_left{
+    width: 22%;
+    height: 97px;
+    /*background-color: antiquewhite;*/
+    float: left;
+    text-align: center;
+    border-bottom: 3px solid #104E8B;
+}
+#head #head_left img{
+    position: relative;
+    top: 18px;
+}
+#head #head_top{
+    width: 78%;
+    height: 17px;
+    /*background-color: #104E8B;*/
+    float: left;
+    margin-top: 3px;
+    margin-bottom: 7px;
+}
+#head #head_top span{
+    width: 100px;
+    height: 20px;
+    display: inline-block;
+    float: right;
+    color: black;
+}
+#head #head_right{
+    width: 78%;
+    height: 73px;
+    background-color:#104E8B;
+    float: right;
+}
+#head #head_right ul{
+    list-style: none;
+}
+#head #head_right ul li{
+    width: 20%;
+    height: 73px;
+    float: left;
+    line-height: 80px;
+    font-weight: bolder;
+    text-align: center;
+    font-size: 25px;
+    color: whitesmoke;
+}
+#head #head_right ul a{
+    text-decoration: none;
+    color: #f5f5f5;
+}
+#head #head_right ul li:hover{
+    background-color: #6495ed;
+    color: #000000;
+}
+
+#footer{
+    width: 100%;
+    height: 40px;
+    /*background-color: coral;*/
+    margin-top: 30px;
+    border-top: solid 1px gainsboro;
+    clear: both;
+    /*padding-bottom: 10px;*/
+}
+#footer span{
+    display: block;
+    font-size: 10px;
+    color: gray;
+    text-align: center;
+    margin-top: 15px;
+}

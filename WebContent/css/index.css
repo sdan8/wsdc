@@ -1,0 +1,105 @@
+#whole{
+    width: 100%;
+}
+
+#body{
+    width: 100%;
+}
+#body #body_left{
+    width: 18%;
+    height: 500px;
+    /*background-color: crimson;*/
+    float: left;
+    /*border-top: solid 3px #104E8B;*/
+
+}
+#body #body_left #search{
+    width: 85%;
+    padding: 10px;
+    text-align: center;
+}
+#body #body_left #search #research{
+    height: 30px;
+    position: relative;
+    left: 10px;
+}
+#body #body_left #search img{
+    float: right;
+    position: relative;
+    top: 3px;
+    left: 15px;
+}
+#body_left #introduce h2{
+    margin: 10px;
+}
+#body_left #introduce p{
+    display: block;
+    margin: 0 auto;
+    width: 200px;
+    font-size: 18px;
+    line-height: 30px;
+}
+
+#body #body_right{
+    width: 81.75%;
+    float: right;
+    padding-top: 30px;
+    border-left: solid 3px #104E8B;
+    /*border-top: solid 3px #104E8B;*/
+}
+#body #body_right #main{
+    width: 90%;
+    margin: 0 auto;
+}
+#body #body_right #main .food{
+    width: 100%;
+}
+#body #body_right #main .food h2{
+    margin: 2px;
+    background-color: darkgrey;
+    padding: 2px;
+    clear: both;
+}
+#body #body_right #main .food #title {
+    margin-top: 280px;
+}
+#body #body_right #main .text{
+    list-style: none;
+}
+#body #body_right #main .text .content{
+    margin: 5px;
+    float: left;
+    margin-bottom: 10px;
+}
+#body_right #main .food .content .fig .img{
+    width: 200px;
+    height: 150px;
+}
+#body #body_right #main .text .content .name{
+    font-size: 18px;
+    font-weight: 700;
+    margin-top: 5px;
+    margin-left: 5px;
+}
+#body #body_right #main .text .content .price{
+    margin: 5px;
+}
+#body #body_right #main .text .content .price span{
+    color: rgb(255,10,64);
+}
+#body #body_right #main .text .content .price .sign{
+    font-size: 16px;
+    font-weight: bolder;
+}
+#body #body_right #main .text .content .price .current{
+    font-size: 22px;
+    font-weight: bolder;
+}
+#body #body_right #main .text .content .buying{
+    width: 200px;
+    height: 25px;
+    background-color: #ff4500;
+    text-align: center;
+    line-height: 25px;
+    color: whitesmoke;
+}

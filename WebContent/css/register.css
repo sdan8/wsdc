@@ -1,0 +1,119 @@
+.index_main{
+    width: 100%;
+}
+.index_main .index_header{
+    width: 50%;
+    margin: 0 auto;
+}
+.index_main .index_header .index_tab_nav{
+    width: 404px;
+    margin: 0 auto;
+    padding-top: 50px;
+    padding-bottom: 5px;
+}
+.index_main .index_header .index_tab_nav .name a:hover{
+    border-bottom: 2px solid #104E8B;
+}
+.index_main .index_header .name{
+    text-align: center;
+}
+.index_main .index_header .name a{
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: bolder;
+    text-align: center;
+    margin: 5px;
+    color: black;
+    padding-bottom: 5px;
+}
+.index_main .index_header .signup{
+    margin: 0 auto;
+    width: 404px;
+}
+.index_main .index_header .signup form{
+    margin: 0 auto;
+    margin-top: 20px;
+    display: inline-block;
+}
+.index_main .index_header .signup form input[type="text"]{
+    width: 300px;
+    height: 40px;
+}
+.index_main .index_header .signup form input[type="password"]{
+    width: 300px;
+    height: 40px;
+}
+.index_main .index_header .signup form input[type="email"]{
+    width: 300px;
+    height: 40px;
+}
+.index_main .index_header .signup form input[type="submit"]{
+    width: 300px;
+    height: 40px;
+    margin-top: 20px;
+
+}
+.index_main .index_header .signup form input[type="radio"]{
+    margin: 10px;
+}
+.index_main .index_header .signup form .name{
+    display: inline-block;
+    width: 100px;
+    text-align: center;
+    font-size: 15px;
+    font-weight: bolder;
+}
+
+.index_main .index_header .signin{
+    margin: 0 auto;
+    width: 404px;
+    height: 366px;
+}
+.index_main .index_header .signin form{
+    margin: 0 auto;
+    margin-top: 20px;
+    display: inline-block;
+}
+.index_main .index_header .signin form input[type="text"]{
+    width: 300px;
+    height: 40px;
+}
+.index_main .index_header .signin form input[type="password"]{
+    width: 300px;
+    height: 40px;
+}
+.index_main .index_header .signin form input[type="submit"]{
+    width: 80px;
+    height: 40px;
+    margin-top: 20px;
+    margin-left: 15px;
+    margin-right: 15px;
+}
+.index_main .index_header .signin form input[type="reset"]{
+    width: 80px;
+    height: 40px;
+    margin-top: 20px;
+    margin-left: 15px;
+    margin-right: 15px;
+}
+.index_main .index_header .signin form input[type="radio"]{
+    margin: 10px;
+}
+.index_main .index_header .signin form .name{
+    display: inline-block;
+    width: 100px;
+    text-align: center;
+    font-size: 15px;
+    font-weight: bolder;
+}
+.index_main .index_header .signin form .name1{
+    display: inline-block;
+    width: 80px;
+    text-align: center;
+    font-size: 15px;
+    font-weight: bolder;
+}
+.index_main .index_header .signin form a{
+    color: red;
+    font-size: 15px;
+}
